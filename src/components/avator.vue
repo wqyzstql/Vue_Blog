@@ -5,6 +5,7 @@
             <el-avatar :size="100" :src="circleUrl" />
           </div>
           <div class="sub-title">MyAngelMizuki_</div>
+          <div class="sign">个性签名区</div>
       </el-col>
     </el-row>
   </template>
@@ -20,23 +21,23 @@
   
   <style scoped>
   .demo-basic {
+    margin-top: 30%;
     text-align: center;
   }
+  .demo-basic .sign{
+    font-size: small;
+    margin-bottom: 30px;
+  }
   .demo-basic .sub-title { 
+    margin-top: 30px;
     margin-bottom: 10px;
-    font-size: 14px;
-    color: var(--el-text-color-secondary);
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
   }
   .demo-basic .demo-basic--circle {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .demo-basic .block:not(:last-child) {
-    border-right: 1px solid var(--el-border-color);
-  }
-  .demo-basic .el-col:not(:last-child) {
-    border-right: 1px solid var(--el-border-color);
   }
   </style>
   
